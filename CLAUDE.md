@@ -8,14 +8,12 @@ A web-based network topology diagram tool. Tech stack is React + TypeScript + Vi
 
 ## Commands
 
-> These will be populated once the project is scaffolded. Expected commands:
-
 ```bash
-npm install       # install dependencies
-npm run dev       # start dev server
-npm run build     # production build
-npm run lint      # lint
-npm run test      # run tests
+npm install         # install dependencies
+npm run dev         # start dev server (Vite HMR)
+npm run build       # tsc type-check + Vite production build → dist/
+npm run lint        # oxlint
+npm run preview     # preview production build locally
 ```
 
 ## Notes
